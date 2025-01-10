@@ -186,6 +186,19 @@ tr:hover {
     background-color: #f1f1f1;
 }
 
+.donateBox{
+    margin: 50px 0px;
+}
+#doneNow{
+    padding: 17px 34px;
+    gap: 48px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid rgba(14, 14, 14, 0.10);
+    background-color: #006A50;
+}
 select {
     padding: 8px;
     font-size: 14px;
@@ -212,11 +225,113 @@ select {
     height: 40px;
 }
 
-.satelite{
+.satelite {
     margin: 50px;
     padding: 10px;
     background: rgb(229, 229, 229);
     border-radius: 15px;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
+}
+
+/* donate style added */
+.donate {
+    text-align: center;
+}
+
+.donateTaka {
+    text-align: center;
+}
+
+.donateTaka button {
+    padding: 20px 40px;
+    /* background-color: white; */
+    border-radius: 10px;
+    border: 2px solid rgb(192, 190, 190);
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-weight: 700;
+    gap: 24px;
+    /* border: 1px solid rgba(14, 14, 14, 0.15); */
+    background: #FFF;
+}
+
+#twoHundredTaka {
+    background: #C6E4D6;
+}
+
+.donateTaka button:hover {
+    cursor: pointer;
+}
+
+.donateTaka button:hover {
+    background-color: rgb(180, 250, 250);
+}
+
+/* subscribe style added */
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: -20px;
+
+}
+
+/*  */
+.subscription-container {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* overflow: hidden; */
+    width: 500px;
+    max-width: 100%;
+    /* border: 5px solid green; */
+}
+
+.subscription .subscription-container {
+    margin: 0px auto;
+}
+
+.subscription-container input[type="email"] {
+    flex: 1;
+    border: none;
+    /* padding: 15px 20px; */
+    font-size: 16px;
+    outline: none;
+    color: #555;
+}
+
+.subscription-container button {
+    background-color: #006400;
+    color: #ffffff;
+    border: none;
+    margin-right: -1px;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.subscription-container button:hover {
+    background-color: #004c2e;
+}
+
+.subscription {
+    border-radius: 24px;
+    background: #C6E4D6;
+    /* width: 1280px; */
+    padding: 80px 100px;
+    text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+    /* gap: 64px; */
+}
+
+/* footer style added */
+footer {
+    text-align: center;
+    padding: 50px 0px;
 }
