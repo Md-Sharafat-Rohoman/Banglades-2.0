@@ -1,0 +1,161 @@
+* {
+    font-family: "Fira Sans", serif;
+    /* font-weight: 300; */
+    /* background-color: green; */
+    /* background: #F5F5F5; */
+    /* padding: 10px 50px; */
+    margin: 10px 20px;
+}
+
+/* header style added */
+.navContainer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navContainer h1 {
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.navContainer button {
+    border: 2px solid green;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* main section Idea style added */
+.idea {
+    background: #C6E4D6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.idea h2 {
+    color: rgba(14, 14, 14, 0.50);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.idea h1 {
+    color: #0E0E0E;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.idea button {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #006A50;
+    padding: 17px 34px;
+    border: none;
+}
+
+/* .idea .firstDiv {
+    background-color: #C6E4D6;
+} */
+.visionFuture {
+    color: #0E0E0E;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.innovationContainer {
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    /* border: none; */
+}
+
+.paragraph {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    background-color: whi;
+}
+
+.cardIcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.innovation {
+    padding: 11px 20px;
+    gap: 48px;
+    border-radius: 8px;
+    background: #5490F5;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.learnFirst {
+    padding: 11px 20px;
+    gap: 48px;
+    border-radius: 8px;
+    background: #09A15C;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.learnThird {
+    padding: 11px 20px;
+    gap: 48px;
+    border-radius: 8px;
+    background: #FFC239;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.digital {
+    background: rgba(84, 144, 245, 0.20);
+    padding: 10px;
+    border: none;
+}
+
+.green {
+    background: #C6E4D6;
+    padding: 10px;
+    border: none;
+}
+
+.building {
+    border: none;
+    background: #F7EBCF;
+    padding: 10px;
+}
+
+.doctoreYunus {
+    background-image: url('./images/quote-bg.png');
+    background-repeat: no-repeat;
+
+}
+
+.backgroundQuote {
+    padding: 10px 5px;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 10px;
+    /* background: green; */
+}
